@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+
+#corpoPrincipal{
+    width: 800px;
+    height: 800px;
+
+    display: flex;
+
+    padding-top: 3em;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#corpo1{
+    width: 50vw;
+    height: auto;
+    background-color: #afafaf;
+    border: black 2px solid;
+}
+
+#foto{
+        width: 200px;
+        height: 200px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        background-image: url("foto.jpeg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+        margin-top: 1.3em;
+        border-radius: 150px;
+    
+}
+
+#nome{
+    width: auto;
+    height: auto;
+    
+    text-align: center;
+    font-size: 1.1em;
+    
+    margin-top: 1em;
+    margin-bottom: 0.6em;
+}
+
+#dados{
+    padding-top: 1em;
+    border-top: rgb(255, 255, 255) 3px solid;
+}
+
+.titulos{
+    width: auto;
+    height: auto;
+
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0.6em;
+
+    /* background-color: #5f5f; */
+}
+
+#dados p{
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 1.3em;
+}
+
+
+ #corpo2{
+    width: 50vw;
+    height: auto;
+    background-color: rgba(98, 0, 255, 0.336);
+
+} 
